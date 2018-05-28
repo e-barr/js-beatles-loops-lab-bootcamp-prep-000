@@ -22,6 +22,10 @@ function johnLennonFacts(arrayOfJohnLennonFacts) {
 function iLoveTheBeatles(n) {
   var storedStrings = []
 
+  if (n >= 15) {
+    return ["I love the Beatles!"]
+  }
+
   while (n < 15) {
     storedStrings.push("I love the Beatles!")
     n += 1
